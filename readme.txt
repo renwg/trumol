@@ -26,3 +26,24 @@
    $ git commit -m "wrote a readme file"
 
 5、运行git status命令看看结果
+
+6、查看历史记录
+   在Git中，我们用git log命令查看：
+   $ git log --pretty=oneline
+
+7、版本回退
+   我们要把当前版本“append GPL”回退到上一个版本“add distributed”，就可以使用git reset命令：
+   在Git中，用HEAD表示当前版本,
+   上一个版本就是HEAD^，上上一个版本就是HEAD^^，当然往上100个版本写100个^比较容易数不过来，所以写成HEAD~100
+   $ git reset --hard HEAD^
+
+8、恢复到指定版本 git reset --hard commit_id
+   $ git reset --hard cb926e7
+
+9、用git reflog查看命令历史，以便确定要回到未来的哪个版本。
+   $ git reflog
+
+10、用git log可以查看提交历史，以便确定要回退到哪个版本。
+   $ git log --pretty=oneline
+  
+   
