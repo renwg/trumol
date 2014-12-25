@@ -45,5 +45,8 @@
 
 10、用git log可以查看提交历史，以便确定要回退到哪个版本。
    $ git log --pretty=oneline
+
+
+https://github.com/twbs/bootstrap
+http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001374829472990293f16b45df14f35b94b3e8a026220c5000
   
-   
